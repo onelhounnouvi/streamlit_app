@@ -164,7 +164,7 @@ def evolution_monde(monde, taille, p_infection, p_mortalite, chance, immunite):
     nb_jours = 1
     while nombre_infectes(monde, taille) > 0:
         img = afficher_matrice_image(monde)
-        time.sleep(0.15)
+        time.sleep(0.12)
         
         if (nb_jours % 3 == 0):
             propagation2(monde, taille, p_infection)
